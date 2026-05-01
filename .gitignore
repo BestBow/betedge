@@ -1,0 +1,33 @@
+# Environment
+.env
+.env.local
+.env.production
+
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.Python
+*.egg-info/
+
+# Data — never commit raw data or trained models
+data/raw/
+data/processed/
+backend/model/*.pkl
+backend/model/*.png
+
+# Mac
+.DS_Store
+
+# Node
+node_modules/
+frontend/build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Logs
+*.log
